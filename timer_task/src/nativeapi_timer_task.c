@@ -18,7 +18,7 @@
 #include "kal.h"
 #include "ohos_errno.h"
 
-int InitTimerTask()
+int InitTimerTask(void)
 {
     return EC_SUCCESS;
 }

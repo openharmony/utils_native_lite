@@ -26,7 +26,7 @@ extern "C" {
 
 typedef void* timerHandle_t;
 
-int InitTimerTask();
+int InitTimerTask(void);
 int StartTimerTask(bool isPeriodic, const unsigned int delay, void* userCallback,
                    void* userContext, timerHandle_t* timerHandle);
 int StopTimerTask(const timerHandle_t timerHandle);
